@@ -132,9 +132,9 @@ const buildOptions = function(){
             onSubmitDelete: function(id){}
         }
     };
-    if(this.language && this.language === 'cn'){
-        p.messages = i18n.cn.messages;
-        p.text = i18n.cn.text;
+    if(this.language && this.language === 'vi'){
+        p.messages = i18n.vi.messages;
+        p.text = i18n.vi.text;
     }
     if(this.callback && typeof this.callback === 'function'){
         p.callbacks.onComplete = (id,name,json,xhr) => {
