@@ -102,7 +102,6 @@
 
 <script>
     import fu from 'fine-uploader';
-    import 'fine-uploader/fine-uploader/fine-uploader-gallery.min.css';
     import holder from 'holderjs';
 
     import * as cs from './constants';

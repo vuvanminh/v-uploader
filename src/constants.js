@@ -55,6 +55,35 @@ const i18n = {
         }
 
     },
+    vi: {
+        messages: {
+            'typeError' : "{file} Định dạng tệp không chính xác. Định dạng hợp lệ: {extensions}",
+            'sizeError' : "{file} Dung lượng tệp vượt quá giới hạn và kích thước tệp tối đa là: {sizeLimit}",
+            'minSizeError' : "{file} Kích thước tệp dưới giới hạn và kích thước tệp tối thiểu để tải lên là: {minSizeLimit}.",
+            'emptyError' : "{file} Tệp này trống. Vui lòng chọn một tệp khác để tải lên.",
+            'noFilesError' : "Không có tệp nào được chọn để tải lên",
+            'tooManyItemsError' : "Quá nhiều tệp ({netItems}) được tải lên, số lượng tệp tải lên được giới hạn trong: {itemLimit}个",
+            'maxHeightImageError' : "Chiều cao hình ảnh vượt quá giới hạn",
+            'maxWidthImageError' : "Chiều rộng hình ảnh vượt quá giới hạn",
+            'minHeightImageError' : "Chiều cao hình ảnh quá nhỏ",
+            'minWidthImageError' : "Chiều rộng hình ảnh quá nhỏ",
+            'retryFailTooManyItems' : "Thử lại không thành công - Bạn đã đạt đến số lượng tệp tối đa.",
+            'onLeave' : "Tệp đang được tải lên. Nếu bạn rời khỏi trang, tệp đang được tải lên sẽ bị hủy."
+        },
+        text: {
+            'failUpload' : 'Tải lên không thành công',
+            'fileInputTitle' : 'Chọn tệp để tải lên'
+        },
+        ui: {
+            thumbnail: 'Xem trước hình ảnh',
+            choseFileButton: 'Chọn tệp',
+            dropHere: 'Kéo tệp vào đây để tải lên...',
+            done: 'Hoàn thành',
+            fileTypes: 'Loại tệp',
+            fileSizeLimit: 'Giới hạn kích thước tệp'
+        }
+
+    },
     en: {
         ui: {
             thumbnail: 'thumbnail',
@@ -115,7 +144,7 @@ const buildOptions = function(){
     return p;
 }
 
-const getI18n = language => (!language || language !== 'en') ? i18n.cn.ui : i18n.en.ui ;
+const getI18n = language => (!language || language !== 'en') ? i18n.vi.ui : i18n.en.ui ;
 
 export {buildOptions};
 export {getI18n};
