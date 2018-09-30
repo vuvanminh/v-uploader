@@ -52,7 +52,7 @@
                                 <input class="qq-edit-filename-selector qq-edit-filename" tabindex="0" type="text">
                                 <span class="qq-upload-size-selector qq-upload-size"></span>
                                 <button type="button" class="qq-btn qq-upload-delete-selector qq-upload-delete">
-                                    <span class="qq-btn qq-delete-icon" aria-label="Delete"></span>
+                                    <span class="qq-btn qq-delete-icon fi-x" aria-label="Delete"></span>
                                 </button>
                                 <button type="button" class="qq-btn qq-upload-pause-selector qq-upload-pause">
                                     <span class="qq-btn qq-pause-icon" aria-label="Pause"></span>
