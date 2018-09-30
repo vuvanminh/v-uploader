@@ -6,7 +6,7 @@
                 <img :src="singleUploadImg" alt="" ref="simpleImg" :width="previewWidth" :height="previewHeight">
             </div>
             <div class="btn singleFileUpload uploader-button" ref="upload" >
-                <i class="v-upload-iconfont icon-uploader-open" v-if="buttonIcon"></i>
+                <i class="fi-camera" v-if="buttonIcon"></i>
                 <span>{{buttonText?buttonText:ui.choseFileButton}}</span>
             </div>
         </div>
