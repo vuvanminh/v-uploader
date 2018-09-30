@@ -20,7 +20,7 @@
             <div class="qq-uploader-selector qq-uploader qq-gallery"
                  :qq-drop-area-text="ui.dropHere"
                  style="height:100%;">
-                <ul class="qq-upload-list-selector qq-upload-list"
+                <ul class="qq-upload-list-selector qq-upload-list grid-x grid-padding-x"
                     role="region"
                     aria-live="polite"
                     aria-relevant="additions removals">
@@ -71,7 +71,7 @@
 
                 <div class="qq-upload-button-selector qq-upload-button uploader-button">
                     <div>
-                        <i class="v-upload-iconfont icon-uploader-open" v-if="buttonIcon"></i>
+                        <i class="fi-camera v-upload-iconfont icon-uploader-open" v-if="buttonIcon"></i>
                         {{buttonText?buttonText:ui.choseFileButton}}
                     </div>
                 </div>
