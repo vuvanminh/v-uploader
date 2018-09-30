@@ -24,7 +24,7 @@
                     role="region"
                     aria-live="polite"
                     aria-relevant="additions removals">
-                    <li>
+                    <li class="columns small-12 medium-6 large-6">
                         <span role="status" class="qq-upload-status-text-selector qq-upload-status-text"></span>
                         <div class="qq-progress-bar-container-selector qq-progress-bar-container">
                             <div role="progressbar"
@@ -63,11 +63,9 @@
                     </li>
                 </ul>
 
-
                 <div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone>
                     <span class="qq-upload-drop-area-text-selector"></span>
                 </div>
-
 
                 <div class="qq-upload-button-selector qq-upload-button uploader-button">
                     <div>
