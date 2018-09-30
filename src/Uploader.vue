@@ -32,7 +32,7 @@
                                      aria-valuenow="0"
                                      aria-valuemin="0"
                                      aria-valuemax="100"
-                                     class="qq-progress-bar-selector qq-progress-bar"></div>
+                                     class="progress qq-progress-bar-selector qq-progress-bar"></div>
                             </div>
                             <span class="qq-upload-spinner-selector qq-upload-spinner"></span>
                             <div class="qq-thumbnail-wrapper">
